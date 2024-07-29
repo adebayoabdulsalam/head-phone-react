@@ -4,6 +4,9 @@ import Navbar from './components/navbar/Navbar';
 import { UpdateFollower } from 'react-mouse-follower';
 import Services from './components/Services/Services';
 import Banner from './components/Banner/Banner';
+import BannerText from './components/Banner/BannerText';
+import Blog from './components/Blogs/Blog';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
       }}>
       <Services/>
       < Banner/>
+      <BannerText/>
+      <Blog />
+      <Footer />
       </UpdateFollower>
     </main>
   );
